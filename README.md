@@ -1,2 +1,2 @@
-# lefos.eu
+# lefos.tech
  
