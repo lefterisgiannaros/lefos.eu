@@ -1,3 +1,10 @@
+// gg ez
+// document.addEventListener("keydown", function (event) {
+//   if (event.ctrlKey) {
+//       event.preventDefault();
+//   }   
+// });
+
 var $header_top = $('.header-top');
 var $nav = $('nav');
  
@@ -6,7 +13,7 @@ $header_top.find('a').on('click', function() {
 });
  
 $('#fullpage').fullpage({
-  sectionsColor: ['#3dcfa1', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
+  sectionsColor: ['#1F4965', '#348899', '#ff8b20', '#ff5757', '#ffd03c'],
   sectionSelector: '.vertical-scrolling',
   navigation: true,
   slidesNavigation: true,

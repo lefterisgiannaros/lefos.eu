@@ -150,7 +150,7 @@ h3 {
   font-weight: 300;
   font-size: 2.8em;
 }
-#fp-nav ul li a span,
+/* #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
   background: white;
   width: 8px;
@@ -167,13 +167,13 @@ h3 {
   background: transparent;
   box-sizing: border-box;
   border: 2px solid #212121;
-}
+} */
 
-.btn1 {
+.btn11 {
   display: inline-block;
-  padding: 0.35em 1.2em;
+  padding: 0.35em 1.8em;
   border: 0.1em solid #ffffff;
-  margin: 0 0.3em 0.3em 0;
+  margin: 0 1.3em 1.3em 0;
   border-radius: 0.12em;
   box-sizing: border-box;
   text-decoration: none;
@@ -183,8 +183,10 @@ h3 {
   text-align: center;
   transition: all 0.2s;
 }
-.btn1:hover {
-  color: #ffffff;
+
+.btn11:hover {
+  color: whitesmoke;
+  background-color: #449FDB;
 }
 
 @media screen and (max-width: 767px) {
@@ -216,9 +218,5 @@ h3 {
 
   nav li a {
     padding: 3px;
-  }
-  .btn1 {
-    display: block;
-    margin: 0.4em auto;
   }
 }
